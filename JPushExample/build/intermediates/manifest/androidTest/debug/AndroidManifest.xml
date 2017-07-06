@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lianjinxue201762.bawei.com.todayheadline.test">
+
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="21" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="lianjinxue201762.bawei.com.todayheadline"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for lianjinxue201762.bawei.com.todayheadline"/>
+</manifest>

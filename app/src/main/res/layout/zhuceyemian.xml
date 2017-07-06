@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/et_password_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请再次输入密码"
+        android:layout_marginTop="20dp"
+        />
+
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_get_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="获取验证码"
+            android:layout_marginTop="20dp"
+            android:textColor="@drawable/yanzhegtextvolor"
+            android:onClick="onClick"
+            />
+
+        <EditText
+            android:id="@+id/et_check_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/btn_get_code"
+            android:gravity="left|center_vertical"
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_regist_regist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

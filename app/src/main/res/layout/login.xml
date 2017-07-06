@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/loginimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ttttt"
+        />
+    <Button
+        android:id="@+id/login_denglu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手机号登录"
+        android:textSize="30dp"
+        android:textColor="#FAFAFA"
+        android:background="#FE3232"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/login_zhuce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册新账号"
+        android:textSize="30dp"
+        android:textColor="#FAFAFA"
+        android:background="#FE3232"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        />
+    <TextView
+        android:id="@+id/lodin_de"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-----更多登录方式-------"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+        <ImageView
+            android:id="@+id/image_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/account_icon_mobile"
+            android:layout_weight="1"
+            android:onClick="onClick"
+
+            />
+        <ImageView
+            android:id="@+id/image_renren"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/account_icon_renren"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:id="@+id/image_weixin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/weixinicon_actionbar_details"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
